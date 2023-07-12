@@ -1,81 +1,35 @@
 <template>
   <div class="container" style="min-height: 40rem;padding: 2rem 0">
-    <h1>ORGANIZERS</h1>
+    <h1>Organizing Committee</h1>
     <hr class="hr">
-    <h2 style="margin-top: 20px">Chinese Academy of Sciences</h2>
     <div class="row row-cols-1 row-cols-md-4 g-4">
 
       <div class="col" v-for="m in organizers" v-bind:key="m.name">
-        <div class="card" style="height: 500px">
+        <div class="card" style="height: 560px">
           <img :src="m.img" class="card-img-top" :alt="m.name" style="height: 350px">
           <div class="card-body">
             <h5 class="card-title">{{ m.name }}</h5>
-            <div style="height: 60px">
-              <p style="margin: 0;font-size: 1rem" class="card-text">{{ m.institute }}</p>
-              <p style="margin: 0;font-size: 1rem" class="card-text">{{ m.email }}</p>
+            <div style="height: 130px">
+              <p style="font-size: 1rem;margin-bottom: 5px" class="card-text">{{ m.institute1 }}</p>
+              <p style="margin-bottom: 5px;font-size: 1rem" class="card-text">{{ m.institute2 }}</p>
+
+              <p style="margin-bottom: 5px;font-size: 1rem" class="card-text">{{ m.institute3 }}</p>
+
             </div>
 
             <p v-show="m.link" style="margin: 0;text-align: right"><a :href="m.link"
-                                                                      class="link-primary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">Link</a>
+            class="link-primary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">More</a>
             </p>
           </div>
         </div>
       </div>
     </div>
-    <h2 style="margin-top: 20px">Fudan University</h2>
-    <div class="row row-cols-1 row-cols-md-4 g-4">
 
-      <div class="col" v-for="m in organizers1" v-bind:key="m.name">
-        <div class="card" style="height: 500px">
-          <img :src="m.img" class="card-img-top" :alt="m.name" style="height: 350px">
-          <div class="card-body">
-            <h5 class="card-title">{{ m.name }}</h5>
-            <div style="height: 60px">
-              <p style="margin: 0;font-size: 1rem" class="card-text">{{ m.institute }}</p>
-              <p style="margin: 0;font-size: 1rem" class="card-text">{{ m.email }}</p>
-            </div>
 
-            <p v-show="m.link" style="margin: 0;text-align: right">
-              <a
-                  :href="m.link"
-                  class="link-primary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover"
-              >
-                Link
-              </a>
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-    <h1 style="margin-top: 40px">COMMITTEE</h1>
-    <hr class="hr">
-    <div class="row row-cols-1 row-cols-md-4 g-4">
-      <div class="col" v-for="m in members" v-bind:key="m.name">
-        <div class="card" style="height: 500px">
-          <img :src="m.img" class="card-img-top" :alt="m.name" style="height: 350px">
-          <div class="card-body">
-            <h5 class="card-title">{{ m.name }}</h5>
-            <div style="height: 60px">
-              <p style="margin: 0;font-size: 1rem" class="card-text">{{ m.institute }}</p>
-              <p style="margin: 0;font-size: 1rem" class="card-text">{{ m.email }}</p>
-            </div>
-
-            <p v-show="m.link" style="margin: 0;text-align: right">
-              <a
-                  :href="m.link"
-                  class="link-primary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover"
-              >
-                Link
-              </a>
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
     <h1 style="margin-top: 40px">TECHNICAL SUPPORT</h1>
     <hr class="hr">
-    Xiaohan Zhao (Fudan University)<br>
-    Yingbing Shi (Fudan University)
+    Yingbing Shi (Fudan University)<br>
+    Xiaohan Zhao (Fudan University)
   </div>
 </template>
 
@@ -121,20 +75,54 @@ export default {
           img: require('@/assets/img/committee/8.png')
         },
       ],
+
       organizers: [
         {
           name: 'Daniel Falush',
-          institute: 'Institute Pasteur Shanghai, CAS',
+          institute1: '中国科学院上海巴斯德研究所',
+          institute2: '微生物、发育与健康研究中心',
+          institute3: 'The Centre for Microbes, Development and Health, Institut Pasteur of Shanghai, CAS',
+
           email: 'daniel.falush@ips.ac.cn',
           link: "http://sourcedb.shanghaipasteur.cas.cn/zw/kydw/yjzz/201911/t20191119_5438491.html",
           img: require('@/assets/img/committee/1.png')
         },
         {
-          name: 'Jialu Chen',
-          institute: 'Institute Pasteur Shanghai, CAS',
+          name: '陈佳璐 CHEN Jialu',
+          institute1: '中国科学院上海巴斯德研究所',
+          institute2: '微生物、发育与健康研究中心',
+          institute3: 'The Centre for Microbes, Development and Health, Institut Pasteur of Shanghai, CAS',
           email: 'jlchen@ips.ac.cn',
           link: '',
           img: require('@/assets/img/committee/2.png')
+        },
+        {
+          name: '星耀武 Xing Yaowu',
+          institute1: '中国科学院西双版纳热带植物园',
+          institute2: 'XTBG, CAS',
+          institute3: '',
+          email: '',
+          link: 'https://www.xtbg.cas.cn/2022/rcdw/yjy/202210/t20221020_6535853.html',
+          img: require('@/assets/img/committee/XingYaowu.jpg')
+        },
+        {
+          name: '高洁 GAO Jie',
+          institute1: '中国科学院西双版纳热带植物园',
+          institute2: 'XTBG, CAS',
+          institute3: '',
+          email: '',
+          link: '',
+          img: require('@/assets/img/committee/GAOJie.png')
+        },
+
+        {
+          name: '徐书华 XU Shuhua',
+          institute1: '复旦大学-进化生物学研究中心',
+          institute2: 'Fudan University - Center for Evolutionary Biology',
+          institute3: '',
+          email: 'xushua@fudan.edu.cn',
+          link: 'https://homo.fudan.edu.cn/b6/18/c18452a177688/page.htm',
+          img: require('@/assets/img/committee/3.png')
         },
       ],
       organizers1: [

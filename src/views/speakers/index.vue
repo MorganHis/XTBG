@@ -2,24 +2,31 @@
   <div class="container" style="padding: 2rem">
     <h1>Confirmed Speakers</h1>
     <hr class="hr">
-    <div class="card mb-3" style="height: 300px;margin-bottom: 2rem" v-for="s in speakers" v-bind:key="s.name">
+    <div class="card mb-3" style="height: 355px;margin-bottom: 2rem" v-for="s in speakers" v-bind:key="s.name">
       <div class="row g-0">
         <div class="col-md-3">
           <img
               :src="s.img"
-               class="img-fluid rounded-start"
+              class="img-fluid rounded-start"
               alt="..."
-              style="height: 300px;width: 240px"
-
+              style="height: 353px;width: 280px"
           >
         </div>
         <div class="col-md-9">
           <div class="card-body">
             <h5 class="card-title" style="font-size: 2rem;font-weight: 650;margin-bottom: 15px">{{ s.name }}</h5>
-            <p class="card-text" style="font-size: 1.2rem;margin-bottom: 5px">{{ s.affiliation1 }}</p>
-            <p class="card-text" style="font-size: 1.2rem;margin-bottom: 5px">{{ s.affiliation2 }}</p>
-            <p class="card-text" style="font-size: 1.2rem;margin-bottom: 5px">{{ s.affiliation3 }}</p>
-            <p class="card-text" style="font-size: 1.2rem">{{ s.description }}</p>
+            <p class="card-text" style="font-size: 1.15rem;margin-bottom: 3px">{{ s.affiliation1 }}</p>
+            <p class="card-text" style="font-size: 1.15rem;margin-bottom: 3px">{{ s.affiliation2 }}</p>
+            <p class="card-text" style="font-size: 1.15rem;margin-bottom: 7px">{{ s.affiliation3 }}</p>
+            <p class="card-text" style="font-size: 1rem;text-align: justify;color: #48649d">{{ s.description }}</p>
+            <p v-show="s.link" style="margin: 0;">
+              <a
+                  :href="s.link"
+                  class="link-primary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover"
+              >
+                More
+              </a>
+            </p>
           </div>
         </div>
       </div>
@@ -55,90 +62,102 @@ export default {
         // }
         {
           name: "Jonathan Karl Pritchard",
-          img: require('@/assets/img/speakers/Jonathan.jpg'),
-          description: "",
+          img: require('@/assets/img/speakers/1111.jpeg'),
+          description: "Jonathan Karl Pritchard is an English-born professor of genetics at Stanford University, best known for his development of the STRUCTURE algorithm for studying population structure and his work on human genetic variation and evolution. His research interests lie in the study of human evolution, in particular in understanding the association between genetic variation among human individuals and human traits.",
           affiliation1: "Stanford University",
           affiliation2: "",
           affiliation3: "",
           affiliation4: "",
+          link: "",
         },
         {
           name: "Daniel FALUSH",
           img: require('@/assets/img/speakers/Daniel.png'),
-          description: "",
+          description: "Daniel FALUSH is an English-born professor of genetics at Chinese Academy Science, who has has conducted research at institutions such as the University of Tokyo in Japan, the Max Planck Institute in Germany, and the University of Oxford in the United Kingdom. He is also the associate editor of the renowned journal Molecular Biology and Evolution (IF=16, from 2010 onwards). His research achievements include the publication of over 80 papers in journals such as Science and Nature, with over 40,000 citations and an H-index of 55 (Google Scholar). He was listed among the top 10 Chinese researchers in the field of Biology in the 2022 China Highly Cited Scholars list. ",
           affiliation1: "中国科学院上海巴斯德研究所",
           affiliation2: "微生物、发育与健康研究中心",
           affiliation3: "The Centre for Microbes, Development and Health,Institut Pasteur of Shanghai, CAS",
           affiliation4: "",
+          link: "http://sourcedb.shanghaipasteur.cas.cn/zw/yjzx_2019/principalnvestigator_2019/201909/t20190910_5379200.html",
         },
         {
           name: "Leo Speidel",
           img: require('@/assets/img/speakers/Leo.png'),
-          description: "",
+          description: "Leo Speidel is a Sir Henry Wellcome fellow at University College London, he develops statistical methods for reconstructing this history, scalable to the largest genomic datasets, which now comprise more than 100,000 individuals and record genetic diversity on an unprecedented scale. He is interested in uncovering how different evolutionary forces have shaped today’s observed genetic variation, from which we can learn about our shared evolutionary history and the impact of genetic variation on our health.",
           affiliation1: "University College London",
           affiliation2: "",
           affiliation3: "",
           affiliation4: "",
+          link: "",
+
         },
         {
-          name: "楼海一 LOU Hai-Yi",
+          name: "楼海一 LOU Haiyi",
           img: require('@/assets/img/speakers/LOUHaiYi.png'),
-          description: "",
+          description: "LOU Haiyi is an associate professor at Fudan University. His research interest mainly focuses on genetic distribution, functional relevance, pathological mechanisms and evolutionary history of DNA structural variants (SVs) in human genomes. His work involves in applying bioinformatics approaches to characterize the genetic diversity of SVs in diverse human populations based on multiple biotechnologies, analyzing multi-omics data to uncover the functional relationship between genetic variants and human traits as well as disease susceptibilities, and using population genetic methods to reconstruct the evolutionary history. He was selected as a member of Youth Innovation Promotion Association of Chinese Academy of Sciences.",
           affiliation1: "中国科学院-马普学会计算生物学伙伴研究所",
           affiliation2: "CAS-MPG Partner Institute for Computational Biology",
           affiliation3: "",
           affiliation4: "",
+          link: "https://pog.fudan.edu.cn/#/people/detail?id=118",
+
         },
         {
           name: "杨剑 YANG Jian",
           img: require('@/assets/img/speakers/YANGJian.png'),
-          description: "",
+          description: "YANG Jian is a Professor of Statistical Genetics at the School of Life Sciences, Westlake University, China. His primary research interests are focused on understanding the genomic variations among individuals within and between populations and the links of genomic variations with health outcomes. The research interests of his lab include (but are not limited to): Population genomics and complex traits，Discovery of new therapeutic targets for cancers, heart diseases, diabetes, and mental illness，Single-cell genomics and epigenomics，Big data modeling and deep learning，Cancer genomics and evolution，Multi-omics and precision medicine，High-performance statistical genetics methods and bioinformatics tools.",
           affiliation1: "西湖大学",
           affiliation2: "Westlake University",
           affiliation3: "",
           affiliation4: "",
+          link: "https://www.westlake.edu.cn/faculty/jian-yang.html",
+
         },
         {
           name: "邓恋 DENG Lian",
           img: require('@/assets/img/speakers/DENGLian.jpg'),
-          description: "",
+          description: "DENG Lian is a female researcher and doctoral supervisor at the School of Life Sciences, Fudan University. She has long been engaged in research in population genetics and genomics, focusing on human genetic diversity, adaptive evolution, and the genetic basis and evolutionary processes of phenotypes and diseases. She has published multiple research papers in internationally renowned journals, including Nature, Molecular Biology and Evolution, Nature Communications, National Science Review, Nucleic Acids Research, Genome Biology, and the American Journal of Human Genetics.",
           affiliation1: "复旦大学-进化生物学研究中心",
           affiliation2: "Fudan University - Center for Evolutionary Biology",
           affiliation3: "",
           affiliation4: "",
+          link: "https://pog.fudan.edu.cn/#/people/detail?id=119",
+
         },
         {
           name: "祁婷 QI Ting",
           img: require('@/assets/img/speakers/QITing.jpg'),
-          description: "",
+          description: "QI Ting is a Research Associate Professor at the School of Life Sciences, Westlake University, China. She received her PhD in 2016 from Zhejiang University, China, before undertaking postdoctoral research at the Institute for Molecular Bioscience, The University of Queensland, Australia. Trained in statistical genetics, her research focuses on understanding the genetic basis of molecular phenotypes and their link to complex diseases, leveraging multi-omics data to discover gene targets for human diseases, and developing novel statistical methods and tools to disentangle the regulatory mechanisms underlying the diseases. To date, she has published 25 papers with 2497 citations, including six first-author papers in high-impact journals such as Nature Genetics and Nature Communications, as well as collaborative research papers in top journals such as Nature and Cancer Research.",
           affiliation1: "西湖大学",
           affiliation2: "Westlake University",
           affiliation3: "",
           affiliation4: "",
+          link: "",
+
         },
         {
-          name: "Leo Speidel",
-          img: require('@/assets/img/speakers/Leo.png'),
-          description: "",
-          affiliation1: "",
-          affiliation2: "",
+          name: "陈玮 CHEN Wei",
+          img: require('@/assets/img/speakers/CHENWei.jpg'),
+          description: "CHEN Wei is an Associate Professor at Yunnan Agricultural University. His research interest concerns the domestication and utilization of perennial crops and medicinal plants. He organized and co-led the International 3K Grapevine Genomes Project to understand how ancient humans tamed the vine of Dionysus with population genomic approaches.",
+          affiliation1: "云南农业大学 西南生物多样性国家重点实验室",
+          affiliation2: "State Key Laboratory for Conservation and Utilization of Bio-Resources in Yunnan, Yunnan Agricultural University",
           affiliation3: "",
           affiliation4: "",
-        },
-        {
-          name: "Leo Speidel",
-          img: require('@/assets/img/speakers/Leo.png'),
-          description: "",
-          affiliation1: "",
-          affiliation2: "",
-          affiliation3: "",
-          affiliation4: "",
-        },
+          link: "",
 
-
-
-
-
+        }
+        // ,
+        // {
+        //   name: "Leo Speidel",
+        //   img: require('@/assets/img/speakers/Leo.png'),
+        //   description: "",
+        //   affiliation1: "",
+        //   affiliation2: "",
+        //   affiliation3: "",
+        //   affiliation4: "",
+        //   link: "",
+        //
+        // },
 
 
       ]

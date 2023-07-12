@@ -1,5 +1,5 @@
 {
-  "name": "XTBG",
+  "name": "xtbg",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -14,6 +14,8 @@
     "axios": "^1.2.3",
     "bootstrap": "^5.2.1",
     "core-js": "^3.8.3",
+    "echarts": "^5.4.2",
+    "element-ui": "^2.15.13",
     "vue": "^2.6.14",
     "vue-axios": "^3.5.2",
     "vue-router": "^3.6.5"
@@ -26,6 +28,7 @@
     "@vue/cli-service": "~5.0.0",
     "eslint": "^7.32.0",
     "eslint-plugin-vue": "^8.0.3",
+    "file-loader": "^6.2.0",
     "node-sass": "^7.0.3",
     "sass-loader": "^13.0.2",
     "vue-template-compiler": "^2.6.14"

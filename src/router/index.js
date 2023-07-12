@@ -35,6 +35,11 @@ const router = new VueRouter({
       meta: { title: 'Speakers' }
     },
     {
+      path: '/schedule',
+      component: () => import('@/views/schedule/index'),
+      meta: { title: 'Schedule' }
+    },
+    {
       path: '/submission',
       component: () => import('@/views/submission/index'),
       meta: { title: 'Submission' }
