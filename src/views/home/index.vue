@@ -26,7 +26,7 @@
 
 
         <div class="carousel-item active">
-          <img width="100%" height="100%" src="@/assets/img/home/home2.jpeg"/>
+          <img width="100%" height="100%" src="@/assets/img/home/home2.jpg"/>
         </div>
         <div class="carousel-item">
           <img width="100%" height="100%" src="@/assets/img/home/home1.jpg"/>

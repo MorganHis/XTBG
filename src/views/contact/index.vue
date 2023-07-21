@@ -4,6 +4,14 @@
     <hr class="hr">
     <!--    <p>gaojie@xtbg.org.cn</p>-->
     <!--    <p>daniel.falush@ips.ac.cn</p>-->
+    <div style="vertical-align: center;display: flex">
+      <p style="margin:0;text-decoration: underline;color: #2942DA;line-height: 32px;vertical-align: center;padding-right: 5px">
+        jlchen@ips.ac.cn</p>
+      <p style="margin:0;line-height: 32px;vertical-align: center;padding-top: 4px">
+        <embed :src="require('@/assets/svg/email.svg')" type="image/svg+xml"
+               style="width: 1.4rem;padding-top: 2px;vertical-align: center"/>
+      </p>
+    </div>
 
     <div style="vertical-align: center;display: flex">
       <p style="margin:0;text-decoration: underline;color: #2942DA;line-height: 32px;vertical-align: center;padding-right: 5px">
@@ -21,6 +29,7 @@
                style="width: 1.4rem;padding-top: 2px;vertical-align: center"/>
       </p>
     </div>
+
   </div>
 </template>
 

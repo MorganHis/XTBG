@@ -26,7 +26,7 @@
     </div>
 
 
-    <h1 style="margin-top: 40px">TECHNICAL SUPPORT</h1>
+    <h1 style="margin-top: 40px">Technical Support</h1>
     <hr class="hr">
     Yingbing Shi (Fudan University)<br>
     Xiaohan Zhao (Fudan University)
@@ -79,9 +79,9 @@ export default {
       organizers: [
         {
           name: 'Daniel Falush',
-          institute1: '中国科学院上海巴斯德研究所',
+          institute1: '中国科学院上海免疫与感染研究所',
           institute2: '微生物、发育与健康研究中心',
-          institute3: 'The Centre for Microbes, Development and Health, Institut Pasteur of Shanghai, CAS',
+          institute3: 'The Centre for Microbes, Development and Health, Shanghai Institue of Immunity and Infection CAS',
 
           email: 'daniel.falush@ips.ac.cn',
           link: "http://sourcedb.shanghaipasteur.cas.cn/zw/kydw/yjzz/201911/t20191119_5438491.html",
@@ -89,9 +89,9 @@ export default {
         },
         {
           name: '陈佳璐 CHEN Jialu',
-          institute1: '中国科学院上海巴斯德研究所',
+          institute1: '中国科学院上海免疫与感染研究所',
           institute2: '微生物、发育与健康研究中心',
-          institute3: 'The Centre for Microbes, Development and Health, Institut Pasteur of Shanghai, CAS',
+          institute3: 'The Centre for Microbes, Development and Health, Shanghai Institue of Immunity and Infection CAS',
           email: 'jlchen@ips.ac.cn',
           link: '',
           img: require('@/assets/img/committee/2.png')
@@ -111,7 +111,7 @@ export default {
           institute2: 'XTBG, CAS',
           institute3: '',
           email: '',
-          link: '',
+          link: 'https://www.xtbg.cas.cn/2022/rcdw/yjy/202210/t20221019_6535790.html ',
           img: require('@/assets/img/committee/GAOJie.png')
         },
 
@@ -123,6 +123,15 @@ export default {
           email: 'xushua@fudan.edu.cn',
           link: 'https://homo.fudan.edu.cn/b6/18/c18452a177688/page.htm',
           img: require('@/assets/img/committee/3.png')
+        },
+        {
+          name: '诺禾致源 Novogene',
+          institute1: ' ',
+          institute2: ' ',
+          institute3: '',
+          email: 'service@novogene.com',
+          link: 'https://www.novogene.cn/',
+          img: require('@/assets/img/committee/img.png')
         },
       ],
       organizers1: [

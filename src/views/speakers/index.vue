@@ -40,26 +40,6 @@ export default {
   data() {
     return {
       speakers: [
-        // {
-        //   name: "Jonathan Pritchard",
-        //   img: require('@/assets/img/speakers/2.jpg'),
-        //   description: "Jonathan Karl Pritchard is an English-born professor of genetics at Stanford University, best known for his development of the STRUCTURE algorithm for studying population structure and his work on human genetic variation and evolution. His research interests lie in the study of human evolution, in particular in understanding the association between genetic variation among human individuals and human traits.",
-        //   affiliation1: "",
-        //   affiliation2: "",
-        //   affiliation3: "",
-        //   affiliation4: "",
-        //
-        // },
-        // {
-        //   name: "Qiaomei Fu",
-        //   img: require('@/assets/img/speakers/1.jpg'),
-        //   description: "QIAOMEI FU is a Chinese researcher at Institute of Vertebrate Paleontology and Paleoanthropology, CAS. She is mainly engaged in the research of evolutionary heredity and population heredity, with a focus on the direction of \"human palaeogenomics research\". Due to her remarkable achievements, she was named one of the \"Top Ten Stars of Science in China\" by Nature, one of the \"Innovative Figures of Science and Technology in China\" by CCTV, selected as a Young corresponding academician of the Academy of Sciences for Developing Countries (TWAS).",
-        //   affiliation1: "",
-        //   affiliation2: "",
-        //   affiliation3: "",
-        //   affiliation4: "",
-        //
-        // }
         {
           name: "Jonathan Karl Pritchard",
           img: require('@/assets/img/speakers/1111.jpeg'),
@@ -74,9 +54,9 @@ export default {
           name: "Daniel FALUSH",
           img: require('@/assets/img/speakers/Daniel.png'),
           description: "Daniel FALUSH is an English-born professor of genetics at Chinese Academy Science, who has has conducted research at institutions such as the University of Tokyo in Japan, the Max Planck Institute in Germany, and the University of Oxford in the United Kingdom. He is also the associate editor of the renowned journal Molecular Biology and Evolution (IF=16, from 2010 onwards). His research achievements include the publication of over 80 papers in journals such as Science and Nature, with over 40,000 citations and an H-index of 55 (Google Scholar). He was listed among the top 10 Chinese researchers in the field of Biology in the 2022 China Highly Cited Scholars list. ",
-          affiliation1: "中国科学院上海巴斯德研究所",
+          affiliation1: "中国科学院上海免疫与感染研究所",
           affiliation2: "微生物、发育与健康研究中心",
-          affiliation3: "The Centre for Microbes, Development and Health,Institut Pasteur of Shanghai, CAS",
+          affiliation3: "The Centre for Microbes, Development and Health, Shanghai Institue of Immunity and Infection CAS ",
           affiliation4: "",
           link: "http://sourcedb.shanghaipasteur.cas.cn/zw/yjzx_2019/principalnvestigator_2019/201909/t20190910_5379200.html",
         },
@@ -95,8 +75,8 @@ export default {
           name: "楼海一 LOU Haiyi",
           img: require('@/assets/img/speakers/LOUHaiYi.png'),
           description: "LOU Haiyi is an associate professor at Fudan University. His research interest mainly focuses on genetic distribution, functional relevance, pathological mechanisms and evolutionary history of DNA structural variants (SVs) in human genomes. His work involves in applying bioinformatics approaches to characterize the genetic diversity of SVs in diverse human populations based on multiple biotechnologies, analyzing multi-omics data to uncover the functional relationship between genetic variants and human traits as well as disease susceptibilities, and using population genetic methods to reconstruct the evolutionary history. He was selected as a member of Youth Innovation Promotion Association of Chinese Academy of Sciences.",
-          affiliation1: "中国科学院-马普学会计算生物学伙伴研究所",
-          affiliation2: "CAS-MPG Partner Institute for Computational Biology",
+          affiliation1: "复旦大学",
+          affiliation2: "Fudan University",
           affiliation3: "",
           affiliation4: "",
           link: "https://pog.fudan.edu.cn/#/people/detail?id=118",
