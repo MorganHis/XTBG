@@ -6,6 +6,8 @@
         <a href="#/home">Home</a>
         <a href="#/registration">Registration</a>
         <a href="#/contact">Contact</a>
+        <a href="https://pog.fudan.edu.cn" >HumPOG</a>
+
       </p>
     </div>
 
