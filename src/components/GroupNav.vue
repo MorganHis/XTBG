@@ -7,11 +7,7 @@
           <p style="margin:0;line-height:1.2rem;font-size: 1.1rem;font-weight: 500;">Human Population<br> Omics Group</p>
         </a>
       </div>
-<!--      先把搜索栏注释掉-->
-<!--      <form class="d-flex">-->
-<!--        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">-->
-<!--        <button type="button" class="btn btn-outline-primary">Search</button>-->
-<!--      </form>-->
+
 
     </div>
   </nav>

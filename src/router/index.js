@@ -43,6 +43,11 @@ const router = new VueRouter({
       path: '/submission',
       component: () => import('@/views/submission/index'),
       meta: { title: 'Submission' }
+    },
+    {
+      path: '/share',
+      component: () => import('@/views/share/index'),
+      meta: { title: 'Share' }
     }
   ]
 })

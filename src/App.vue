@@ -17,6 +17,8 @@
         <li class="nav-item"><router-link to="/registration" active-class="active" class="nav-link">Registration</router-link></li>
 <!--        <li class="nav-item"><router-link to="/submission" active-class="active" class="nav-link">Submission</router-link></li>-->
         <li class="nav-item"><router-link to="/contact" active-class="active" class="nav-link">Contact</router-link></li>
+<!--        <li class="nav-item"><router-link to="/share" active-class="active" class="nav-link">Share</router-link></li>-->
+
       </ul>
     </header>
     <div>

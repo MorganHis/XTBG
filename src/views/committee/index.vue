@@ -1,8 +1,8 @@
 <template>
-  <div class="container" style="min-height: 40rem;padding: 2rem 0">
+  <div class="container" style="min-height: 60rem;padding: 2rem 0">
     <h1>Organizing Committee</h1>
     <hr class="hr">
-    <div class="row row-cols-1 row-cols-md-4 g-4">
+    <div class="row row-cols-1 row-cols-md-3 g-4">
 
       <div class="col" v-for="m in organizers" v-bind:key="m.name">
         <div class="card" style="height: 560px">
@@ -55,7 +55,7 @@ export default {
         },
         {
           name: 'Hua Chen',
-          institute: 'Beijing Institute of Genomics, CAS',
+          institute: 'Beijing Institute of Genomics, Chinese Academy of Sciences',
           email: 'chenh@big.ac.cn',
           link: 'http://www.big.ac.cn/sourcedb_big_cas/zw/zjrc/yjy/201506/t20150630_4381456.html',
           img: require('@/assets/img/committee/6.png')
@@ -69,7 +69,7 @@ export default {
         },
         {
           name: 'Xuemei Lu',
-          institute: 'Kunming Institute of Zoology, CAS',
+          institute: 'Kunming Institute of Zoology, Chinese Academy of Sciences',
           email: 'xuemeilu@mail.kiz.ac.cn',
           link: 'https://people.ucas.edu.cn/~3979404',
           img: require('@/assets/img/committee/8.png')
@@ -81,7 +81,7 @@ export default {
           name: 'Daniel Falush',
           institute1: '中国科学院上海免疫与感染研究所',
           institute2: '微生物、发育与健康研究中心',
-          institute3: 'The Centre for Microbes, Development and Health, Shanghai Institue of Immunity and Infection CAS',
+          institute3: 'The Centre for Microbes, Development and Health, Shanghai Institue of Immunity and Infection, Chinese Academy of Sciences',
 
           email: 'daniel.falush@ips.ac.cn',
           link: "http://sourcedb.shanghaipasteur.cas.cn/zw/kydw/yjzz/201911/t20191119_5438491.html",
@@ -91,15 +91,15 @@ export default {
           name: '陈佳璐 CHEN Jialu',
           institute1: '中国科学院上海免疫与感染研究所',
           institute2: '微生物、发育与健康研究中心',
-          institute3: 'The Centre for Microbes, Development and Health, Shanghai Institue of Immunity and Infection CAS',
+          institute3: 'The Centre for Microbes, Development and Health, Shanghai Institue of Immunity and Infection, Chinese Academy of Sciences',
           email: 'jlchen@ips.ac.cn',
           link: '',
           img: require('@/assets/img/committee/2.png')
         },
         {
-          name: '星耀武 Xing Yaowu',
+          name: '星耀武 XING Yaowu',
           institute1: '中国科学院西双版纳热带植物园',
-          institute2: 'XTBG, CAS',
+          institute2: 'XTBG, Chinese Academy of Sciences',
           institute3: '',
           email: '',
           link: 'https://www.xtbg.cas.cn/2022/rcdw/yjy/202210/t20221020_6535853.html',
@@ -108,7 +108,7 @@ export default {
         {
           name: '高洁 GAO Jie',
           institute1: '中国科学院西双版纳热带植物园',
-          institute2: 'XTBG, CAS',
+          institute2: 'XTBG, Chinese Academy of Sciences',
           institute3: '',
           email: '',
           link: 'https://www.xtbg.cas.cn/2022/rcdw/yjy/202210/t20221019_6535790.html ',
