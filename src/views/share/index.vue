@@ -142,7 +142,8 @@
         <ul style="font-weight: 400; font-size: 1.3rem">
 
 
-          <li><b>Deadline:</b> <a style="background-color: rgba(255,171,19,0.7)"> Sep. 15th, 2023 </a> (applicants should
+          <li><b>Deadline:</b> <a style="background-color: rgba(255,171,19,0.7)"> Sep. 15th, 2023 </a> (applicants
+            should
             provide a 1 -page CV in English together with a
             200-word
             summary of their current research project and reason for wishing to attend the workshop.)
@@ -160,7 +161,7 @@
           <li>
             <b>Website: </b>
             <a style="color: #3b82f6"
-            href="https://pog.fudan.edu.cn/xtbg2023/#/home">https://pog.fudan.edu.cn/xtbg2023</a>
+               href="https://pog.fudan.edu.cn/xtbg2023/#/home">https://pog.fudan.edu.cn/xtbg2023</a>
           </li>
           <p></p>
         </ul>
@@ -187,24 +188,6 @@ export default {
           img: require('@/assets/img/committee/1.png')
         },
         {
-          name: '陈佳璐 CHEN Jialu',
-          institute1: '中国科学院上海免疫与感染研究所',
-          institute2: '微生物、发育与健康研究中心',
-          institute3: 'The Centre for Microbes, Development and Health, Shanghai Institue of Immunity and Infection, Chinese Academy of Sciences',
-          email: 'jlchen@ips.ac.cn',
-          link: '',
-          img: require('@/assets/img/committee/2.png')
-        },
-        {
-          name: '星耀武 XING Yaowu',
-          institute1: '中国科学院西双版纳热带植物园',
-          institute2: 'XTBG, Chinese Academy of Sciences',
-          institute3: '',
-          email: '',
-          link: 'https://www.xtbg.cas.cn/2022/rcdw/yjy/202210/t20221020_6535853.html',
-          img: require('@/assets/img/committee/XingYaowu.jpg')
-        },
-        {
           name: '高洁 GAO Jie',
           institute1: '中国科学院西双版纳热带植物园',
           institute2: 'XTBG, Chinese Academy of Sciences',
@@ -217,12 +200,36 @@ export default {
         {
           name: '徐书华 XU Shuhua',
           institute1: '复旦大学-进化生物学研究中心',
-          institute2: 'Fudan University - Center for Evolutionary Biology',
-          institute3: '',
+          institute2: '上海市遗传学会 ',
+          institute3: 'Fudan University - Center for Evolutionary Biology, Shanghai Society of Genetics',
           email: 'xushua@fudan.edu.cn',
           link: 'https://homo.fudan.edu.cn/b6/18/c18452a177688/page.htm',
           img: require('@/assets/img/committee/3.png')
         },
+
+        {
+          name: '星耀武 XING Yaowu',
+          institute1: '中国科学院西双版纳热带植物园',
+          institute2: 'XTBG, Chinese Academy of Sciences',
+          institute3: '',
+          email: '',
+          link: 'https://www.xtbg.cas.cn/2022/rcdw/yjy/202210/t20221020_6535853.html',
+          img: require('@/assets/img/committee/XingYaowu.jpg')
+        },
+
+
+        {
+          name: '陈佳璐 CHEN Jialu',
+          institute1: '中国科学院上海免疫与感染研究所',
+          institute2: '微生物、发育与健康研究中心',
+          institute3: 'The Centre for Microbes, Development and Health, Shanghai Institue of Immunity and Infection, Chinese Academy of Sciences',
+          email: 'jlchen@ips.ac.cn',
+          link: '',
+          img: require('@/assets/img/committee/2.png')
+        },
+
+
+
         {
           name: '诺禾致源 Novogene',
           institute1: ' ',

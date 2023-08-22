@@ -7,6 +7,8 @@
         <a href="#/registration">Registration</a>
         <a href="#/contact">Contact</a>
         <a href="https://pog.fudan.edu.cn" >HumPOG</a>
+        <a href="https://pog.fudan.edu.cn/#/conference" >More Conference</a>
+
 
       </p>
     </div>
