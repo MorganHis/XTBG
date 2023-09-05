@@ -2,14 +2,14 @@
   <div class="container" style="padding: 2rem">
     <h1>Confirmed Speakers</h1>
     <hr class="hr">
-    <div class="card mb-3" style="height: 355px;margin-bottom: 2rem" v-for="s in speakers" v-bind:key="s.name">
+    <div class="card mb-3" style="height: 380px;margin-bottom: 2rem" v-for="s in speakers" v-bind:key="s.name">
       <div class="row g-0">
         <div class="col-md-3">
           <img
               :src="s.img"
               class="img-fluid rounded-start"
               alt="..."
-              style="height: 353px;width: 280px"
+              style="height: 378px;width: 290px"
           >
         </div>
         <div class="col-md-9">
@@ -72,14 +72,14 @@ export default {
 
         },
         {
-          name: "楼海一 LOU Haiyi",
-          img: require('@/assets/img/speakers/LOUHaiYi.png'),
-          description: "LOU Haiyi is an associate professor at Fudan University. His research interest mainly focuses on genetic distribution, functional relevance, pathological mechanisms and evolutionary history of DNA structural variants (SVs) in human genomes. His work involves in applying bioinformatics approaches to characterize the genetic diversity of SVs in diverse human populations based on multiple biotechnologies, analyzing multi-omics data to uncover the functional relationship between genetic variants and human traits as well as disease susceptibilities, and using population genetic methods to reconstruct the evolutionary history. He was selected as a member of Youth Innovation Promotion Association of Chinese Academy of Sciences.",
-          affiliation1: "复旦大学",
-          affiliation2: "Fudan University",
+          name: "李海鹏 LI Haipeng",
+          img: require('@/assets/img/speakers/lihaipeng.jpeg'),
+          description: "LI Haipeng is a professor at Shanghai institute of nutrition and health, CAS. His group engaged in long-term research aimed at developing new theories in evolutionary biology and novel methods in computational biology, analyzing important biological questions related to basic research and societal life from mathematical and computational perspectives. Key academic contributions include establishing a calibrated classical methodology that utilizes whole-genome data to estimate population evolutionary history and subsequently detect positive selection, and discovering a significant average decline of approximately 95% in the population numbers of endangered vertebrate species over the past 100 to 200 years.",
+          affiliation1: "",
+          affiliation2: "Shanghai institute of nutrition and health, CAS",
           affiliation3: "",
           affiliation4: "",
-          link: "https://pog.fudan.edu.cn/#/people/detail?id=118",
+          link: "http://www.sinh.cas.cn/rcdw/qtyjzz/201803/t20180327_4986742.html",
 
         },
         {

@@ -1,7 +1,6 @@
 <template>
   <div>
     <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
-
       <div style="display:flex;justify-content:space-between;max-height: 600px">
         <img data-aos="fade-right" src="@/assets/img/home/home2.jpg" style="width:100%;">
       </div>
@@ -12,9 +11,7 @@
           <h2 style="font-weight: 500;font-size: 30px;text-shadow: black 0.1em 0.1em 0.2em;margin-top: 55px">
             2023/10/09 – 2023/10/15</h2>
         </div>
-
       </div>
-
     </div>
 
     <div class="container" style="margin-top: 1rem">
@@ -32,13 +29,8 @@
     </div>
 
     <div class="container" style="margin-top: 1rem">
-      <!--      <h1 style="margin-top: 0;color: #22460a">when and where</h1>-->
-      <!--      <hr class="hr" style="color: #2e3a27">-->
       <div class="alert alert-success" role="alert">
-        <!--        style="background-color: rgb(248,249,250);color: #0c0c0c;border-color: #f8f9fa"-->
-        <!--      <h2 class="alert-heading">All participants must register!</h2>-->
         <ul style="font-weight: 400; font-size: 1.3rem">
-
           <li style="margin-top: 15px"><b>举办时间: </b> 09 – 15 Oct 2023 (7 days)</li>
           <li style="margin-top: 15px"><b>举办地点: </b>
             <a>
@@ -52,30 +44,20 @@
       </div>
     </div>
     <div class="container" style="margin-top: 3rem">
-
       <h2 class="display-5 fw-bold">Confirmed Speakers</h2>
       <hr class="hr" style="color: #2e3a27">
-
       <div class="col" v-for="m in speakers" v-bind:key="m.name">
-        <!--        <div class="shareCard" style="max-width: 500px">-->
         <div style="border-radius: 10px; background-color: rgb(230,240,250);padding: 1rem 1rem;margin-bottom: 5px">
-
           <div style="display:flex;justify-content:space-between;margin-top: 5px;margin-bottom: 5px;max-width: 700px">
-            <!--          <img data-aos="fade-right" src="@/assets/img/home/home2.jpg" style="width:100%;">-->
             <img :src="m.img" class="card-img-top" :alt="m.name" style="width:60%;">
           </div>
-
           <h5 class="card-title">{{ m.name }}</h5>
           <div style="text-align: justify;">
-
             <p style="font-size: 1rem;margin-bottom: 5px" class="card-text">{{ m.affiliation1 }}</p>
             <p style="margin-bottom: 5px;font-size: 1rem" class="card-text">{{ m.affiliation2 }}</p>
             <p style="margin-bottom: 5px;font-size: 1rem" class="card-text">{{ m.affiliation3 }}</p>
-
             <p style="margin-bottom: 5px;font-size: 1rem;color: #48649d" class="card-text">{{ m.description }}</p>
-
           </div>
-
           <p v-show="m.link" style="margin: 0;text-align: left">
             <a :href="m.link"
                class="link-primary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">
@@ -83,11 +65,7 @@
             </a>
           </p>
         </div>
-
-        <!--        </div>-->
-
       </div>
-
     </div>
     <div class="container" style="margin-top: 1.5rem">
       <h2 class="display-5 fw-bold">Organizing Committee</h2>
@@ -95,10 +73,7 @@
 
       <div class="col" v-for="m in organizers" v-bind:key="m.name">
         <div style="border-radius: 10px; background-color: rgb(230,240,250);padding: 1rem 1rem;margin-bottom: 5px">
-
-          <!--        <div class="shareCard" style="max-width: 500px">-->
           <div style="display:flex;justify-content:space-between;margin-top: 5px;margin-bottom: 5px;max-width: 700px">
-            <!--          <img data-aos="fade-right" src="@/assets/img/home/home2.jpg" style="width:100%;">-->
             <img :src="m.img" class="card-img-top" :alt="m.name" style="width:60%;">
           </div>
 
@@ -106,9 +81,7 @@
           <div style="text-align: justify;">
             <p style="font-size: 1rem;margin-bottom: 5px" class="card-text">{{ m.institute1 }}</p>
             <p style="margin-bottom: 5px;font-size: 1rem" class="card-text">{{ m.institute2 }}</p>
-
             <p style="margin-bottom: 5px;font-size: 1rem" class="card-text">{{ m.institute3 }}</p>
-
           </div>
 
           <p v-show="m.link" style="margin: 0;text-align: left">
@@ -117,12 +90,8 @@
               More
             </a>
           </p>
-
-          <!--        </div>-->
-
         </div>
       </div>
-
     </div>
 
     <div class="container" style="margin-top: 1.5rem">
@@ -130,7 +99,7 @@
       <h2 class="display-5 fw-bold">Preliminary Schedule</h2>
       <hr class="hr" style="color: #2e3a27">
 
-      <img src="@/assets/img/schedule/schedule2.png"
+      <img src="@/assets/img/schedule/schedule3.png"
            style="width:100%;">
     </div>
     <div class="container" style="margin-top: 1.5rem">
@@ -229,7 +198,6 @@ export default {
         },
 
 
-
         {
           name: '诺禾致源 Novogene',
           institute1: ' ',
@@ -273,14 +241,14 @@ export default {
 
         },
         {
-          name: "楼海一 LOU Haiyi",
-          img: require('@/assets/img/speakers/LOUHaiYi.png'),
-          description: "LOU Haiyi is an associate professor at Fudan University. His research interest mainly focuses on genetic distribution, functional relevance, pathological mechanisms and evolutionary history of DNA structural variants (SVs) in human genomes. His work involves in applying bioinformatics approaches to characterize the genetic diversity of SVs in diverse human populations based on multiple biotechnologies, analyzing multi-omics data to uncover the functional relationship between genetic variants and human traits as well as disease susceptibilities, and using population genetic methods to reconstruct the evolutionary history. He was selected as a member of Youth Innovation Promotion Association of Chinese Academy of Sciences.",
-          affiliation1: "复旦大学",
-          affiliation2: "Fudan University",
+          name: "李海鹏 LI Haipeng",
+          img: require('@/assets/img/speakers/lihaipeng.jpeg'),
+          description: "LI Haipeng is a professor at Shanghai institute of nutrition and health, CAS. His group engaged in long-term research aimed at developing new theories in evolutionary biology and novel methods in computational biology, analyzing important biological questions related to basic research and societal life from mathematical and computational perspectives. Key academic contributions include establishing a calibrated classical methodology that utilizes whole-genome data to estimate population evolutionary history and subsequently detect positive selection, and discovering a significant average decline of approximately 95% in the population numbers of endangered vertebrate species over the past 100 to 200 years.",
+          affiliation1: "",
+          affiliation2: "Shanghai institute of nutrition and health, CAS",
           affiliation3: "",
           affiliation4: "",
-          link: "https://pog.fudan.edu.cn/#/people/detail?id=118",
+          link: "http://www.sinh.cas.cn/rcdw/qtyjzz/201803/t20180327_4986742.html",
 
         },
         {
