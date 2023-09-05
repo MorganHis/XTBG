@@ -5,8 +5,8 @@
     <div class="row row-cols-1 row-cols-md-3 g-4">
 
       <div class="col" v-for="m in organizers" v-bind:key="m.name">
-        <div class="card" style="height: 560px">
-          <img :src="m.img" class="card-img-top" :alt="m.name" style="height: 350px">
+        <div class="card" style="height: 640px">
+          <img :src="m.img" class="card-img-top" :alt="m.name" style="height: 420px">
           <div class="card-body">
             <h5 class="card-title">{{ m.name }}</h5>
             <div style="height: 130px">
