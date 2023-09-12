@@ -72,17 +72,6 @@ export default {
 
         },
         {
-          name: "李海鹏 LI Haipeng",
-          img: require('@/assets/img/speakers/lihaipeng.jpeg'),
-          description: "LI Haipeng is a professor at Shanghai institute of nutrition and health, CAS. His group engaged in long-term research aimed at developing new theories in evolutionary biology and novel methods in computational biology, analyzing important biological questions related to basic research and societal life from mathematical and computational perspectives. Key academic contributions include establishing a calibrated classical methodology that utilizes whole-genome data to estimate population evolutionary history and subsequently detect positive selection, and discovering a significant average decline of approximately 95% in the population numbers of endangered vertebrate species over the past 100 to 200 years.",
-          affiliation1: "",
-          affiliation2: "Shanghai institute of nutrition and health, CAS",
-          affiliation3: "",
-          affiliation4: "",
-          link: "http://www.sinh.cas.cn/rcdw/qtyjzz/201803/t20180327_4986742.html",
-
-        },
-        {
           name: "杨剑 YANG Jian",
           img: require('@/assets/img/speakers/YANGJian.png'),
           description: "YANG Jian is a Professor of Statistical Genetics at the School of Life Sciences, Westlake University, China. His primary research interests are focused on understanding the genomic variations among individuals within and between populations and the links of genomic variations with health outcomes. The research interests of his lab include (but are not limited to): Population genomics and complex traits，Discovery of new therapeutic targets for cancers, heart diseases, diabetes, and mental illness，Single-cell genomics and epigenomics，Big data modeling and deep learning，Cancer genomics and evolution，Multi-omics and precision medicine，High-performance statistical genetics methods and bioinformatics tools.",
@@ -124,7 +113,6 @@ export default {
           affiliation3: "",
           affiliation4: "",
           link: "",
-
         },
         {
           name: "王国栋 WANG Guodong",
@@ -135,7 +123,29 @@ export default {
           affiliation3: "",
           affiliation4: "",
           link: "",
+        },
+        {
+          name: "李海鹏 LI Haipeng",
+          img: require('@/assets/img/speakers/lihaipeng.jpeg'),
+          description: "Professor Li Haipeng group works in the field of population genetics and bioinformatics. With regard to population genetics, our goals are to study the mechanism of recent adaptation due to positive selection in living organisms, such as humans, Drosophila and pathogens. We search for methods to detect selection which are not influenced by a high false positive rate because of the confounding impact of demography (i.e., varying population size and population structure) and genetic recombination. Our research activities can help us to understand the function of genes and the interaction between genes and environment. We are studying how natural selection has helped humans to adapt to environmental changes and especially how natural selection has accelerated the emergence of consciousness and language. In the field of bioinformatics, we develop comprehensive software to meet various needs in genetic data analysis.",
+          affiliation1: "中国科学院上海免疫与感染研究所",
+          affiliation2: "",
+          // affiliation2: "Shanghai institute of nutrition and health, CAS",
+          affiliation3: "",
+          affiliation4: "",
+          link: "http://www.sinh.cas.cn/rcdw/qtyjzz/201803/t20180327_4986742.html",
 
+        },
+        {
+          name: "姜亚飞  Jiang Ya Fei",
+          img: require('@/assets/img/speakers/jiangyafei.png'),
+          description: "Yafei Jiang is an Associate Researcher specializing in Bioinformatics and Biomedical Sciences. She currently serves as the Director of Bioinformatics at the Bioinformatics Business Unit of Novogene.\n" +
+              "She has extensive experience in the field, having successfully led and participated in over 20 large-scale collaborative projects and more than 30 cooperative projects. She has also undertaken the design and analysis of over 200 project proposals. Her expertise lies in multi-omics approach design, project analysis, workflow development, and research and development. She has published co-first author articles in prestigious journals such as Nature Genetics and Plant Biotechnology Journal. She has multiple authored professional patents and software copyrights in relevant areas.",
+          affiliation1: "诺禾致源公司",
+          affiliation2: "",
+          affiliation3: "",
+          affiliation4: "",
+          link: "",
         }
         // ,
         // {
