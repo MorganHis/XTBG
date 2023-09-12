@@ -99,7 +99,7 @@
       <h2 class="display-5 fw-bold">Preliminary Schedule</h2>
       <hr class="hr" style="color: #2e3a27">
 
-      <img src="@/assets/img/schedule/schedule3.png"
+      <img src="@/assets/img/schedule/schedule4.png"
            style="width:100%;">
     </div>
     <div class="container" style="margin-top: 1.5rem">
